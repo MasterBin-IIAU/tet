@@ -206,7 +206,7 @@ tools/dist_test.sh configs/bdd100k/cem_bdd.py saved_models/teter_bdd_r50_1x_2022
 ```
 #### Test TAO model
 ```angular2html
-tools/dist_test.sh configs/tao/tracker_tao.py saved_models/teter_tao_r101_2x_20220613_223321.pth 8 25000 --eval track --eval-options resfile_path=results/teter_tao_results/
+bash tools/dist_test.sh configs/tao/tracker_r101_tao.py saved_models/teter_tao_r101_2x_20220613_223321.pth 8 25000 --tmpdir ../tmp --eval track --eval-options resfile_path=results/teter_tao_results/
 ```
 
 ### Conversion to the Scalabel/BDD100K format
